@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+}
+header {
+   display: flex;
+   align-items: center;
+   /* justify-content: space-evenly; */
+
+   background-color: #3C5998;
+   color : white;
+   padding-left: 10%;
+   
+}
+.Login{
+    margin-left: 21%;
+}
+main {
+    display: flex;
+    background-color: #e8ebee;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer {
+    margin: 0;
+    background-color: #e8ebee;
+}
+main p {
+    color: #7b7b7b;
+    width: 70%;
+    font-size: small;
+    font-weight: lighter;
+}
+main button {
+    color: white;
+    background-color: #619E4E;
+    border: 0px;
+    border-radius: 5%;
+}
+.Names {
+    display: inline-flex;
+    width: 100%;
+}
+#contact-details {
+    width: 54%;
+    margin-top: 1%;
+    display: block;
+}
+.Names>input{
+    margin-right: 1%;
+}
+#password-details {
+    width: 54%;
+    margin-top: 1%;
+}
+.genders{
+    display: block;
+    margin-top: 2%;
+}
+.right-side{
+   /* padding: 10%;
+    /* margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%; */
+
+}
+.left-side {
+   /* margin: 10% 1% 10% 15%;*/
+   font-size: small;
+}
+
+.myButton {
+    height: 50px;
+    width: 200px;
+    box-shadow: inset 0px 1px 0px 0px #a4e271;
+    background: linear-gradient(to bottom, #7bc70a 5%, #5d9c14 100%);
+    background-color: #7bc70a;
+    border-radius: 6px;
+    border: 1px solid #9ed448;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528009;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #497515 5%, #47c509 100%);
+    background-color: #5d9c14;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+h2 {
+    font-size: medium;
+    font-weight: lighter;
+}
+footer {
+    border: 0px;
+    padding-top: 10%;
+    display: flex;
+}
